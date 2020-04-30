@@ -13,9 +13,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
-app.get('/', function (req, res) {
-    res.redirect('/routes/routes.js');
-});
 
 // memuat route yang akan digunakan
 const routes = require('./routes/routes.js')(app, fs);
