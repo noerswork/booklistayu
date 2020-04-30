@@ -1,0 +1,26 @@
+{
+  "1": {
+    "title": "Laskar Pelangi",
+    "penulis": "Andrea Hirata",
+    "category": "Novel",
+    "id": 1
+  },
+  "2": {
+    "title": "Harry Potter",
+    "penulis": "J.K. Rowling",
+    "category": "Novel",
+    "id": 2
+  },
+  "3": {
+    "title": "Detective Conan",
+    "penulis": "Gosho Aoyoma",
+    "category": "Comic",
+    "id": 3
+  },
+  "4": {
+    "title": "About You",
+    "penulis": "Tere Liye",
+    "category": "Novel",
+    "id": 4
+  }
+}
