@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.get('/', function (req, res) {
-    res.redirect('/routes');
+    res.redirect('/routes/routes.js');
 });
 
 // memuat route yang akan digunakan
