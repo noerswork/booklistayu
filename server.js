@@ -14,13 +14,13 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.get('/', function (req, res) {
-    res.redirect(routes);
+    res.redirect('/routes');
 });
 
 // memuat route yang akan digunakan
 const routes = require('./routes/routes.js')(app, fs);
 
 // menentukan port server
-const server = app.listen(3001, () => {
-    console.log('listening on port %s ...', server.address())
+const server = app.listen(process.env.PORT || 3000, function () {
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
